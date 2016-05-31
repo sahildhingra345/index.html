@@ -1,0 +1,302 @@
+#clock{
+    margin:10px 0px 0px 520px;
+}
+/*scrol*/
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #F5F5F5;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #F90;
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent)
+}
+
+/*scrol end*/
+
+body {
+    margin: 0px;
+}
+header {
+    width: 100%;
+    background-color: grey;
+    height: 60px;
+}
+#logo {
+    height: 60px;
+    width: 100px;
+    float: left;
+}
+#heading {
+    margin: 0px 0px 0px 700px;
+}
+#heading li {
+    transition: 0.5s;
+    font-family: sans-serif;
+    float: left;
+    color: white;
+    line-height: 60px;
+    list-style: none;
+    font-size: 20px;
+    margin-left: 40px;
+}
+#heading li:hover {
+    transition: 0.5s;
+    color: firebrick;
+}
+#name {
+    cursor: default;
+    margin: 0px 0px 0px 130px;
+    line-height: 60px;
+    float: left;
+    color: yellow;
+    font-size: 23px;
+    font-family: cursive;
+}
+.frontimg {
+    background-image: url(images/frontimg.jpg);
+    height: 650px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#slogan {
+    line-height: 100px;
+    text-align: center;
+    font-size: 60px;
+    font-style: oblique;
+    text-decoration: underline;
+    font-family: cursive;
+    color: red;
+    letter-spacing: 10px;
+    cursor: default;
+}
+#secslogan {
+    color: antiquewhite;
+    line-height: 140px;
+    text-align: center;
+    font-size: 45px;
+    font-family: monospace;
+    cursor: default;
+}
+#social {
+    text-align: center;
+    color: firebrick;
+    font-size: 40px;
+    cursor: default;
+}
+#arrow {
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 20px;
+    cursor: default;
+}
+#sociallogo p {
+    float: left;
+    margin: 0px 0px 0px 250px;
+    line-height: 90px;
+    font-size: 30px;
+}
+#sociallogo a {
+    text-decoration: none;
+    color: lightyellow;
+    font-family: sans-serif;
+}
+#sociallogo a:hover {
+    color: white;
+}
+.circular1 {
+    border: 2px solid yellow;
+    height: 100px;
+    width: 130px;
+    border-radius: 90px;
+}
+.circular2 {
+    border: 2px solid yellow;
+    height: 90px;
+    width: 90px;
+    border-radius: 90px;
+}
+.circular3 {
+    border: 2px solid yellow;
+    height: 100px;
+    width: 110px;
+    border-radius: 90px;
+}
+.circular1:hover {
+    background-color: red;
+}
+.circular2:hover {
+    background-color: red;
+}
+.circular3:hover {
+    background-color: red;
+}
+
+/*end main*/
+
+#secmain {
+    height: 100px;
+    width: 100%;
+    background-color: burlywood;
+}
+#members {
+    margin: 0px;
+    font-family: cursive;
+    font-size: 40px;
+    text-align: center;
+    line-height: 100px;
+    color: red;
+    cursor: default;
+}
+
+/*end sec2*/
+
+#wrapintro {
+    cursor: default;
+}
+#intro1 {
+    height: 300px;
+    width: 100%;
+    background-color: coral;
+    background-attachment: fixed;
+}
+#sahilimg {
+    height: 15em;
+    width: 15em;
+    border-radius: 15em;
+    margin: 16px 0px 0px 30px;
+    border: 10px solid yellow;
+}
+#sahil {
+    float: right;
+    font-family: monospace;
+    color: cyan;
+    font-size: 50px;
+    margin: 20px 900px 0px 0px;
+}
+#sahilintro {
+    float: right;
+    margin: -150px 100px 0px 0px;
+    color: green;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+#sonuimg {
+    border: 10px solid green;
+    margin: 16px 30px 0px 0px;
+    float: right;
+    height: 15em;
+    width: 15em;
+    border-radius: 15em;
+}
+#intro2 {
+    height: 300px;
+    width: 100%;
+    background-color: cyan;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#sonu {
+    float: right;
+    font-family: monospace;
+    color: red;
+    font-size: 50px;
+    margin: 20px 800px 0px 0px;
+}
+#sonuintro {
+    float: right;
+    margin: 50px 400px 0px 0px;
+    color: antiquewhite;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+#line {
+    margin: 0px 0px 0px 400px;
+    font-size: 45px;
+    color: red;
+}
+#intro3 {
+    height: 300px;
+    width: 100%;
+    background-color: crimson;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#monuimg {
+    height: 15em;
+    width: 15em;
+    border-radius: 15em;
+    margin: 16px 0px 0px 30px;
+    border: 10px solid skyblue;
+}
+#monu {
+    float: right;
+    font-family: monospace;
+    color: red;
+    font-size: 50px;
+    margin: 20px 800px 0px 0px;
+}
+#monuintro {
+    float: right;
+    margin: -150px 330px 0px 0px;
+    color: aqua;
+    font-size: 66px;
+    font-family: sans-serif;
+}
+#hidden{
+    display:none;
+}
+#clock{
+}
+
+
+
+
+
+
+
+
+/*responsive*/
+
+@media screen and (max-width:1365px) {
+    #bigwrapper{
+        display:none;
+    }
+    #hidden{
+        display:block;
+    }
+}
+
+@media screen and (min-width:1367px) {
+    #bigwrapper{
+        display:none;
+    }
+    #hidden{
+        display:block;
+    }
+}
+
+-ie-@media screen and (width:1366px) {
+    #bigwrapper{
+        display:none;
+    }
+    #hidden{
+        display:block;
+    }
+}
+
+/*end responsive*/
+
+
+
+
+
+
+
+
+
